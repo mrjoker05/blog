@@ -1,0 +1,42 @@
+title: ev1lm0rty 
+url: https://mrjoker05.github.io
+author: Shubham Arya
+#email: 
+description: > # this means to ignore newlines until "show_exerpts:"
+  Hi there, I am Shubham, an infosec geek who loves automation. I occasionally blog about hackthebox writeups and other stuff.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%b %-d, %Y"
+
+  disqus:
+    shortname: mrjoker05-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://twitter.com/iam_shubhamarya
+      icon: twitter-square
+      color: cyan
+    - url: https://github.com/mrjoker05
+      icon: github-square
+      color: yellow
+    - url: https://reddit.com/user/iamnobody_8
+      icon: reddit-square
+      color: red
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+  - liquid-md5
+  - jekyll/tagging
